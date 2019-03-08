@@ -5,6 +5,8 @@ class CreateGroups < ActiveRecord::Migration[5.2]
       t.string :description
       t.string :level
 
+      t.string :token, index: true, unique: true
+
       t.timestamps
     end
   end
