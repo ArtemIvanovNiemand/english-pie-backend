@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42179f4-d735-4138-9ea2-3008b05aa962" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/english-pie-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/english-pie-backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/entities/exercises/base.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/entities/exercises/base.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190127130714_create_join_table_group_lesson.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190127130714_create_join_table_group_lesson.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190127151346_create_choose_exercises.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190127151346_create_choose_exercises.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190303092838_rename_answer_index_column_of_choose_exercise.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/english-pie-erd.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/english-pie-erd.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,15 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/lesson.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/match_exercise.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +79,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/api/groups/admin_v1/update.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="360">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/json_web_token.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -146,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spec/support/helpers/auth_helper.rb" />
         <option value="$PROJECT_DIR$/app/api/lessons/v1/show.rb" />
         <option value="$PROJECT_DIR$/spec/request/api/v1/lessons/show.rb" />
         <option value="$PROJECT_DIR$/spec/models/group_spec.rb" />
@@ -197,6 +189,7 @@
         <option value="$PROJECT_DIR$/app/api/auth_helpers.rb" />
         <option value="$PROJECT_DIR$/app/models/exercise.rb" />
         <option value="$PROJECT_DIR$/app/api/entities/exercises/base.rb" />
+        <option value="$PROJECT_DIR$/lib/json_web_token.rb" />
       </list>
     </option>
   </component>
@@ -244,6 +237,11 @@
               <item name="english-pie-backend" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="english-pie-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="english-pie-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="english-pie-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -632,7 +630,7 @@
       <workItem from="1551537280902" duration="28890000" />
       <workItem from="1551716206858" duration="2635000" />
       <workItem from="1551719608631" duration="14058000" />
-      <workItem from="1551899419257" duration="15206000" />
+      <workItem from="1551899419257" duration="15419000" />
     </task>
     <servers />
   </component>
@@ -669,10 +667,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152065000" />
+    <option name="totallyTimeSpent" value="152278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="43" width="1340" height="955" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8455882" visible="true" weight="0.26040062" />
       <window_info id="Structure" order="1" sideWeight="0.15441176" side_tool="true" weight="0.37182638" />
@@ -817,9 +816,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/api/exercises/admin_v1/endpoints.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/exercises/admin_v1/show.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1087,8 +1083,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/api/groups/admin_v1/update.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="360">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/json_web_token.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
