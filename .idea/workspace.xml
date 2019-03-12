@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f42179f4-d735-4138-9ea2-3008b05aa962" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/english-pie-erd.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/english-pie-erd.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="f42179f4-d735-4138-9ea2-3008b05aa962" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/json_web_token.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -630,7 +628,7 @@
       <workItem from="1551537280902" duration="28890000" />
       <workItem from="1551716206858" duration="2635000" />
       <workItem from="1551719608631" duration="14058000" />
-      <workItem from="1551899419257" duration="15419000" />
+      <workItem from="1551899419257" duration="15735000" />
     </task>
     <servers />
   </component>
@@ -667,13 +665,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152278000" />
+    <option name="totallyTimeSpent" value="152594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="43" width="1340" height="955" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8455882" visible="true" weight="0.26040062" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8455882" visible="true" weight="0.26040062" />
       <window_info id="Structure" order="1" sideWeight="0.15441176" side_tool="true" weight="0.37182638" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -686,7 +683,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925485" visible="true" weight="0.34530708" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49925485" visible="true" weight="0.34530708" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007452" side_tool="true" weight="0.34530708" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32942554" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1090,8 +1087,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/json_web_token.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
